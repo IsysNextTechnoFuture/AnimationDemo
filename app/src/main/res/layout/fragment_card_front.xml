@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_one">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView android:id="@+id/tv_dialog"
+        style="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog"/>
+
+    <TextView android:id="@+id/tv_fliph_dialog"
+        style="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fliph Dialog"/>
+
+    <TextView android:id="@+id/tv_fall_dialog"
+        style="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fall Dialog"/>
+
+    <TextView android:id="@+id/tv_shake_dialog"
+        style="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shake Dialog"/>
+
+    <TextView android:id="@+id/tv_slide_top_dialog"
+        style="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Top Dialog"/>
+
+    <TextView android:id="@+id/tv_slide_bottom_dialog"
+        style="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Bottom Dialog"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

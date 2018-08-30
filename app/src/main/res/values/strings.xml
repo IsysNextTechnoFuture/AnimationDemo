@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="action_add_item">AnimationDemo</string>
+    <string name="action_photo">Photo</string>
+    <string name="action_info">Info</string>
+
+
+</resources>
